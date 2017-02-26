@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+#canvas {
+	background: #7d20da!important;
+}
+#canvas, #text {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+}
+#text {
+  min-height: 45vh;
+  width: 100vw;
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#text h1 {
+	opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 1px 0 #ccc, 2px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 20px 10px rgba(0,0,0,.15);
+    font-size: 50px;
+
+}
+

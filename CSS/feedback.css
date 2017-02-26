@@ -1,0 +1,45 @@
+table { 
+    max-width: 30%;
+    border-collapse:collapse!important; 
+    border: none!important;}
+td{
+    padding: 5px!important;
+}
+img{
+    max-width: 5%;
+}
+#profile{
+        display: inline-block;
+       border-radius: 50px!important;
+}
+.feedback h5{
+    display: inline-block;
+    font-weight: 700;
+}
+.feedback{
+    text-align: left!important;
+    
+}
+.feedback_service h5{
+    display: inline-block;
+    font-weight: 700;
+}
+.feedback_service{
+    text-align: left!important;
+   
+}
+#rate{
+    color: purple;
+    font-weight: 900;
+    margin-left: 1em;
+    display: inline-block;
+}
+#content{
+    margin-left: 3em;
+    border-bottom: 1px solid gray;
+}
+h3{
+    background-color: rgba(100, 2, 131, 0.72)!important;
+    color: #eee;
+    padding: .2em;
+}

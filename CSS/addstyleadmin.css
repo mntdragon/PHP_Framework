@@ -1,0 +1,45 @@
+
+th, td{
+  padding: 1em!important;
+}
+addbook{
+    align-content: center;
+}
+.fg-button{
+position: relative;
+border-radius: 4;
+font-size: 18px;
+padding: 8px 28px;
+text-decoration: none;
+border: 0px solid;
+cursor: pointer;
+border-bottom-width: 3px;
+outline: none;
+-webkit-transition: 0.3s background;
+-moz-transition: 0.3s background;
+transition: 0.3s background;
+}
+a{
+color: white!important;
+}
+.fg-button:active{
+top: 2px;
+}
+
+
+.fg-button.teal{
+color: #fff;
+border-color: #9f27c4;
+background-color:#8e44ad;
+}
+
+.fg-button.teal:hover{
+background: #d336d8;
+}
+
+
+.fg-button.teal:active{
+background: #d336d8;
+top: 2px;
+border-bottom-width: 1px;
+}
