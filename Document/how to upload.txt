@@ -1,0 +1,31 @@
+1. Dong goi databse
+uniserver- server console
+mysqldump -u root bookdb -p >bookdb.sql
+-----bookdb.sql la ten moi cua database khi xuat ra ngoai
+2. winscp
+chuyen folder va database sang server truong
+database de ngoai public html
+
+3. putty
+dang nhap vao tai khoan
+copy the database to mysli.oamk.fi: mysql -h mysli.oamk.fi -u t4ngng00 -D opisk_t4ngng00 -p < bookdb.sql
+
+Vao https://it.oamk.fi/tools/students_mysql_generator/ de lay password.
+
+Check xem da vao chua:
+mysql -h mysli.oamk.fi -u t4ngng00 -D opisk_t4ngng00 -p 
+ show tables;
+ use opisk_t4ngng00;
+ show tables;
+
+5. application/config/database ben winscp
+'hostname' => 'mysli.oamk.fi',
+	'username' => 't4ngng00',
+	'password' => 'pass lay o link tren',
+	'database' => 'opisk_t4ngng00',
+	'dbdriver' => 'mysqli',
+Luu y: phpadmin: check privileges xem co quyen truy cap chua.
+vi du, bookdb da co username t4ngng00 host name la mysli.oamk.fi
+ 
+
+
